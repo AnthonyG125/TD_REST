@@ -1,0 +1,10 @@
+api_platform:
+    title: 'TD REST - GRAS Anthony'
+    description: 'A Symfony API to generate a password'
+    version: '1.0.0'
+    mapping:
+        paths: ['%kernel.project_dir%/src/Entity']
+    patch_formats:
+        json: ['application/merge-patch+json']
+    swagger:
+        versions: [3]
